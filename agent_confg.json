@@ -1,0 +1,20 @@
+
+{
+    "firehose.endpoint": "firehose.us-east-1.amazonaws.com",
+    "awsAccessKeyId":"**********************",
+    "awsSecretAccessKey":"******************",
+  
+      "flows": [
+          {
+              "filePattern": "/var/log/aws-kinesis-agent/access_log*.log",
+              "deliveryStream": "web-log-ingestion-stream",
+              "dataProcessingOptions": [
+                  {
+                      "optionName": "LOGTOJSON",
+                      "logFormat": "COMMONAPACHELOG"
+                  }
+              ]
+          }
+      ]
+  
+  }
