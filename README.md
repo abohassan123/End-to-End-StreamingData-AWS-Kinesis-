@@ -37,6 +37,6 @@ so :
     - connected to the destination which will be the second Data Firehose
     
  - finally Viewed the Aggregated Streaming Data by OpenSearch and made a simple  graph and some search 
-    
+ - you can watch this video with all the steps here : https://www.linkedin.com/posts/mohamed-abohassan-6509641a9_dataengineering-python-dataanalytics-activity-6998262573120839681-6-Cx?utm_source=share&utm_medium=member_desktop
  
  
